@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.first {
+
+    background: url("./images/love.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+#cupid {
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 4%;
+    height: 4%;
+    margin: 1%;
+    margin-right: auto;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2%;
+    
+}
+
+.nav-bar div {
+    align-content: center;
+    margin: 2%;
+}
+
+@font-face {
+    font-family: cookie;
+    src: url(Cookie-Regular.ttf);
+}
+
+p {
+    font-family: cookie;
+    font-size: 2.5em;
+}
+
+#note {
+    margin-top: 14%;
+    color: white;
+    margin: 1%;
+}
+
+.pro {
+    margin-bottom: 2%;
+}
+
+.drill {
+    color: red;
+}
+
+
+.center-single {
+    text-align: center;
+    color: red;
+    font-size: em;
+}
+
+.heart {
+    height: 20%;
+    width: 20%;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 10%;
+    margin: 4%;
+}
