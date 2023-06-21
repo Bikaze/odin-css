@@ -22,13 +22,21 @@
     margin: 1%;
     margin-right: auto;
 }
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.pro {
+    color: black;
+}
 
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 2%;
-    
+    text-decoration: none;
 }
 
 .nav-bar div {
@@ -41,7 +49,7 @@
     src: url(Cookie-Regular.ttf);
 }
 
-p {
+p,figcaption, blockquote {
     font-family: cookie;
     font-size: 2.5em;
 }
@@ -60,7 +68,8 @@ p {
 
 .center-single {
     text-align: center;
-    color: red;
+    
+    font-size: 3em;
 }
 
 .heart {
@@ -70,4 +79,74 @@ p {
     background-color: transparent;
     border-radius: 10%;
     margin: 4%;
+}
+
+.places {
+    display: flex;
+    font-size: 0.8em;
+    justify-content: space-around;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.place {
+    flex: 1 1 33.33%;    
+}
+
+.place-img {
+    border: 2px solid white;
+    border-radius: 10%;
+     width: 100%;
+     height: 100%;
+    
+}
+
+.place p {
+    text-align: center;
+}
+
+.second {
+    margin-top: 5%;
+    background-color: grey;
+    text-align: center;
+    padding: 5%;
+}
+
+
+.third {
+    display: flex;
+    margin: 6%;
+    background-color: red;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.third > * {
+    font-family: cookie;
+    font-size: 2em;
+}
+
+button {
+    width: 20%;
+    height: 15%;
+    background-color: darkgreen;
+    color: black;
+    border: 1px solid darkgreen;
+    border-radius: 5%;
+}
+
+
+
+
+footer {
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
 }
